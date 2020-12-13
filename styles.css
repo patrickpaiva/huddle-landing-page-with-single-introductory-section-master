@@ -115,3 +115,60 @@ footer {
 .attribution a { 
     color: white; 
 }
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 80vw;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .container >img {
+        margin-top: 26px;
+        width: 150px;
+    }
+
+    .container .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .content .ilustration {
+        width: 100%;
+        margin: 48px 0px 30px 0px;
+    }
+
+    .container .content .text {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .container .content .text h1 {
+        font-size: 26px;
+    }
+
+    .container .content .text button {
+        padding: 12px 82px;
+    }
+
+    .container .social-midia {
+        margin-top: 64px;
+        justify-content: center;
+    }
+
+    .container .social-midia .midia:first-child {
+        margin-left: 0px;
+    }
+
+    .container .social-midia .midia {
+        height: 23px;
+        width: 23px;
+    }
+
+    .container .social-midia .midia i {
+        font-size: 12px;
+    }
+
+    
+}
